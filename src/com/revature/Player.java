@@ -23,6 +23,7 @@ public class Player extends GameEntity{
             System.out.println(name + " does a super attack!");
             enemy.setHealth(enemy.getHealth() - 40);
             System.out.println(enemy.getName() + " takes 40 damage!");
+            System.out.println(enemy.getName() + " has " + enemy.getHealth() + " health.");
         }
         else {
             System.out.println(enemy.getName() + " is currently invincible!");
